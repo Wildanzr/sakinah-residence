@@ -5,7 +5,16 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {}
+    container: {
+      center: true,
+      screens: {
+        xl: '1366px',
+        '2xl': '1440px'
+      }
+    },
+    backgroundImage: {
+      'hero-home': "url('../public/images/bg-1.jpg')"
+    }
   },
   plugins: []
 }
