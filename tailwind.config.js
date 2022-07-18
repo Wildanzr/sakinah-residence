@@ -16,5 +16,5 @@ module.exports = {
       'hero-home': "url('../public/images/bg-1.jpg')"
     }
   },
-  plugins: []
+  plugins: [require('daisyui')]
 }
