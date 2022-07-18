@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-hero-yellow {
+    background: linear-gradient(180deg, rgba(254, 182, 12, 0.15) 0%, rgba(254, 182, 12, 0.15) 100%);
+}
