@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <p className='flex absolute font-monument font-black text-8xl bottom-[2%] -left-[10%] tracking-wider opacity-[5%]'>
+      <p className='flex absolute font-monument font-black text-8xl bottom-[2%] -left-[25%] md:-left-[10%] tracking-wider opacity-[5%]'>
         KARYA CIPTA <br /> SAKINAH
       </p>
     </div>

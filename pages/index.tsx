@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { Nav, Hero } from '../components'
+import { Nav, Hero, Content } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -14,9 +14,7 @@ const Home: NextPage = () => {
 
       <Nav>
         <Hero />
-        <div className="flex bg-hero-home bg-center h-[481px] w-full justify-center py-2">
-          <p className="font-thin text-3xl">Meow</p>
-        </div>
+        <Content />
       </Nav>
     </div>
   )
