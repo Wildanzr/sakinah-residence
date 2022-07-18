@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('../public/fonts/lemon_milk/LEMONMILK-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Addinnaka';
+    src: url('../public/fonts/adinnaka/Adlinnaka-BoldDemo.ttf')
+}
+
+@font-face {
+    font-family: 'Monument';
+    scr: url('../public/fonts/monumentextended/MonumentExtended-Regular.otf')
+}
 
 .bg-hero-yellow {
     background: linear-gradient(180deg, rgba(254, 182, 12, 0.15) 0%, rgba(254, 182, 12, 0.15) 100%);

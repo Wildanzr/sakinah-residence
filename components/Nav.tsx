@@ -36,7 +36,7 @@ const Nav = (props: LayoutProps) => {
             </label>
           </div>
 
-          <div className="flex-none hidden lg:block">
+          <div className="flex-none font-poppins font-medium hidden lg:block">
             <div className="flex flex-row">
               <a className="text-lg px-5 tracking-wider uppercase">Home</a>
               <a className="text-lg px-5 tracking-wider uppercase">Project</a>
@@ -50,12 +50,12 @@ const Nav = (props: LayoutProps) => {
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-        <ul className="flex flex-col p-4 overflow-y-auto w-40 bg-white">
+        <div className="flex flex-col font-poppins font-medium p-4 overflow-y-auto w-40 bg-white">
           <a className="text-lg py-3 tracking-wider uppercase">Home</a>
           <a className="text-lg py-3 tracking-wider uppercase">Project</a>
           <a className="text-lg py-3 tracking-wider uppercase">About</a>
           <a className="text-lg py-3 tracking-wider uppercase">Contact</a>
-        </ul>
+        </div>
       </div>
     </div>
   )
