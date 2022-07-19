@@ -7,7 +7,7 @@ const Testimonial = () => {
         <div className="w-full h-[1200px] md:h-[450px] grid auto-rows-auto md:grid-cols-3 gap-0 text-white">
           <div className="flex flex-col w-full h-full items-center justify-center">
             <div className="flex relative w-9/12 h-2/6 bg-[#FBFDFF] shadow-2xl items-center justify-center rounded-md px-3">
-              <div className="flex absolute border-solid border-t-[#FBFDFF] border-t-[30px] border-x-transparent border-x-[30px] border-b-0 -bottom-[15%]" />
+              <div className="flex absolute border-solid border-t-[#FBFDFF] shadow-2xl border-t-[30px] border-x-transparent border-x-[30px] border-b-0 -bottom-[15%]" />
               <p className="leading-5 text-center font-poppins text-base text-black">Saya Berterima kasih kepada  sakinah residence, saya sangat tertarik dengan perumahan ini karena banyak fasilitas umumnya.</p>
             </div>
 
