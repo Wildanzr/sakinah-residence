@@ -26,13 +26,19 @@ module.exports = {
       }
     },
     backgroundImage: {
-      'hero-home': "url('../public/images/bg-1.jpg')"
+      'hero-home': "url('../public/images/bg-1.jpg')",
+      'proj-1': "url('../public/images/proj-1.jpg')",
+      'proj-2': "url('../public/images/proj-2.jpg')",
+      'proj-3': "url('../public/images/proj-3.jpg')"
     },
     fontFamily: {
       poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
+      montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
       lemon: ['LEMON MILK', ...defaultTheme.fontFamily.sans],
       adinnaka: ['Adinnaka', ...defaultTheme.fontFamily.sans],
-      monument: ['Monument', ...defaultTheme.fontFamily.sans]
+      monument: ['Monument', ...defaultTheme.fontFamily.sans],
+      dancing: ['Dancing Script', ...defaultTheme.fontFamily.sans],
+      lora: ['Lora', 'serif', ...defaultTheme.fontFamily.sans]
     }
   },
   plugins: [require('daisyui')]

@@ -1,3 +1,5 @@
 export { default as Nav } from './Nav'
 export { default as Hero } from './Hero'
 export { default as Content } from './Content'
+export { default as Project } from './Project'
+export { default as Testimonials } from './Testimonials'

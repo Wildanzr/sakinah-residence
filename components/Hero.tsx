@@ -4,7 +4,7 @@ import hero from '../public/images/content-2.jpg'
 
 const Hero = () => {
   return (
-    <div className="flex relative hero min-h-screen w-full bg-hero-yellow">
+    <div className="flex container relative hero min-h-full w-full bg-hero-yellow">
       <div className="hero-content w-full justify-between flex-col lg:flex-row-reverse">
         <div className="flex relative mx-5 w-3/6 min-h-full border-white border-[15px]">
           <Image src={hero} alt="hero" className="w-full h-full" />

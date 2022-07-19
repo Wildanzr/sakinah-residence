@@ -4,8 +4,8 @@ import Content1 from '../public/images/content-1.jpg'
 
 const Content = () => {
   return (
-    <div className="flex w-full flex-col md:flex-row bg-hero-home bg-center h-[481px] items-center justify-evenly py-10 text-white">
-      <div className="flex flex-col w-7/12 text-left">
+    <div className="flex container w-full flex-col md:flex-row bg-hero-home bg-center h-[481px] items-center justify-evenly py-10 text-white">
+      <div className="flex flex-col w-7/12 text-left px-10">
         <h3 className="font-poppins text-4xl font-bold">Karya Cipta Sakinah</h3>
           <p className="font-poppins font-normal text-base pt-6">
             Mengembangkan hunian perumahan dengan rumah sehat, speck hebat, dan

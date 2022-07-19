@@ -10,7 +10,7 @@ interface LayoutProps {
 const Nav = (props: LayoutProps) => {
   const { children } = props
   return (
-    <div className="drawer text-black">
+    <div className="drawer container text-black">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         <div className="w-full flex flex-row navbar bg-white justify-between">
