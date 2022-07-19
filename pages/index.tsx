@@ -5,7 +5,7 @@ import { Nav, Hero, Content, Project, Testimonials } from '../components'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col bg-slate-100 h-screen mx-auto overflow-x-hidden overflow-y-hidden">
+    <div className="flex flex-col bg-white h-screen mx-auto">
       <Head>
         <title className="text-5xl font-bold">Sakinah Residence</title>
         <meta name="description" content="Perumahan Subsidi Sakinah Residence Probolinggo" />

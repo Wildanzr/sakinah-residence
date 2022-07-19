@@ -33,7 +33,6 @@
       1px -1px 0 #fff,
       -1px 1px 0 #fff,
        1px 1px 0 #fff;
-
 }
 
 .proj-text-stroke-black {
@@ -43,5 +42,13 @@
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
+}
 
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
