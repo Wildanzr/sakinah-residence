@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { Nav, Hero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
+import { Hero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -13,19 +13,38 @@ const Home: NextPage = () => {
       </Head>
 
       <Wrapper>
-        <div className="bg-hero-yellow min-h-full max-h-screen w-full">
+        <div className="flex bg-hero-yellow min-h-full max-h-screen w-full">
           <Hero />
         </div>
 
-        <div className="bg-hero-home bg-cover bg-center max-h-[70vh] w-full">
+        <div className="flex bg-hero-home bg-cover bg-center max-h-[70vh] w-full">
           <Content />
         </div>
-        {/* <Project />
-        <Testimonial />
-        <Customer />
-        <Map />
-        <Contact />
-        <Footer /> */}
+
+        <div className="flex w-full bg-white items-center">
+          <Project />
+        </div>
+
+        <div className="flex w-full bg-white">
+          <Testimonial />
+        </div>
+
+        <div className="flex w-full bg-[#E7AC29]">
+          <Customer />
+        </div>
+
+        <div className="flex w-full bg-white min-h-[400px]">
+          <Map />
+        </div>
+
+        <div className="flex w-full bg-black">
+          <Contact />
+        </div>
+
+        <div className="flex w-full bg-[#242F30]">
+          <Footer />
+        </div>
+
       </Wrapper>
     </div>
   )
