@@ -16,7 +16,10 @@ const Home: NextPage = () => {
         <div className="bg-hero-yellow min-h-full max-h-screen w-full">
           <Hero />
         </div>
+
+        <div className="bg-hero-home bg-cover bg-center max-h-[70vh] w-full">
           <Content />
+        </div>
         {/* <Project />
         <Testimonial />
         <Customer />
