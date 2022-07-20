@@ -11,7 +11,9 @@ const Wrapper = (props: LayoutProps) => {
     <div className="w-full drawer drawer-end text-black">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col overflow-y-hidden">
-        <Nav />
+        <div className="bg-white">
+            <Nav />
+        </div>
         {children}
       </div>
       <div className="drawer-side">

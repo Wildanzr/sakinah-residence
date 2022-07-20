@@ -13,8 +13,10 @@ const Home: NextPage = () => {
       </Head>
 
       <Wrapper>
-        <Hero />
-        <Content />
+        <div className="bg-hero-yellow min-h-full max-h-screen w-full">
+          <Hero />
+        </div>
+          <Content />
         {/* <Project />
         <Testimonial />
         <Customer />

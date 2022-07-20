@@ -4,7 +4,7 @@ import LogoSakinah from '../public/images/logo-sakinah.png'
 
 const Nav = () => {
   return (
-    <div className="container flex flex-row navbar bg-blue-300 justify-between">
+    <div className="container flex flex-row navbar justify-between">
       <div className="flex h-12 w-28 mx-2 lg:mx-5 items-center justify-center">
         <Image src={LogoSakinah} alt="Sakinah Residence Logo" />
       </div>
