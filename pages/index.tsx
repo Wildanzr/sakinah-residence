@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { Nav, Hero, Content, Project, Testimonial, Customer, Map } from '../components'
+import { Nav, Hero, Content, Project, Testimonial, Customer, Map, Contact } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +19,7 @@ const Home: NextPage = () => {
         <Testimonial />
         <Customer />
         <Map />
+        <Contact />
       </Nav>
     </div>
   )

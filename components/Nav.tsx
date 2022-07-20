@@ -15,7 +15,7 @@ const Nav = (props: LayoutProps) => {
       <div className="drawer-content flex flex-col overflow-y-hidden">
         <div className="w-full flex flex-row navbar bg-white justify-between">
           <div className="flex h-12 w-28 mx-2 lg:mx-5 items-center justify-center">
-            <Image src={LogoSakinah} alt="Sakinah Residence Logo" height={60}/>
+            <Image src={LogoSakinah} alt="Sakinah Residence Logo" />
           </div>
 
           <div className="flex-none sm:hidden">
