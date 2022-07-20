@@ -3,13 +3,13 @@ import Logo from '../public/images/logo-sakinah.png'
 
 const Contact = () => {
   return (
-    <div className="grid auto-rows-auto md:grid-cols-3 gap-0 bg-black text-white h-[500px]">
-      <div className="flex w-2/3 mx-2 lg:mx-5 items-center justify-center">
-        <Image src={Logo} alt="Sakinah Residence Logo" />
+    <div className="container grid auto-rows-auto md:grid-cols-3 gap-0 px-5 py-5 h-full text-white ">
+      <div className="flex w-full px-10 lg:px-5 items-center justify-center">
+        <Image src={Logo} alt="Sakinah Residence Logo"/>
       </div>
 
       <div className="flex flex-col w-full items-start justify-center">
-        <h3 className="font-poppins font-semibold text-lg my-5">
+        <h3 className="w-full font-poppins font-semibold text-lg my-5 text-center md:text-left">
           Address List
         </h3>
 
@@ -58,7 +58,7 @@ const Contact = () => {
       </div>
 
       <div className="flex flex-col w-full items-start justify-center">
-        <h3 className="font-poppins font-semibold text-lg my-5">
+        <h3 className="w-full font-poppins font-semibold text-lg my-5 text-center md:text-left">
           Social Network
         </h3>
 
