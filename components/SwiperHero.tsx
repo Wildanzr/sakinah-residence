@@ -22,7 +22,8 @@ const SwiperHero = () => {
         }}
         navigation={true}
         modules={[Autoplay, Navigation]}
-        className="mySwiper w-full h-full container"
+        className="mySwiper w-full h-full"
+        id='home'
       >
         <SwiperSlide>
         <div className="flex bg-hero-yellow min-h-full max-h-screen w-full">

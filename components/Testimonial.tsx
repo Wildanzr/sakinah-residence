@@ -1,6 +1,6 @@
 const Testimonial = () => {
   return (
-    <div className="flex flex-col container items-center justify-center text-center">
+    <div className="flex flex-col container items-center justify-center text-center" id='testimonials'>
         <span className="font-poppins text-[#6B6B6B] text-xl pt-5 pb-2">What People Says</span>
         <h3 className="text-3xl font-lemon tracking-widest pb-5">Testimonials</h3>
 

@@ -5,7 +5,7 @@ import { SwiperHero, Content, Project, Testimonial, Customer, Map, Contact, Foot
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col w-full bg-white h-screen mx-auto">
+    <div className="flex flex-col w-full bg-white h-screen mx-auto scroll-smooth">
       <Head>
         <title className="text-5xl font-bold">Sakinah Residence</title>
         <meta name="description" content="Perumahan Subsidi Sakinah Residence Probolinggo" />

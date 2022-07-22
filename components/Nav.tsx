@@ -29,10 +29,10 @@ const Nav = () => {
 
       <div className="flex-none font-poppins font-medium hidden lg:block">
         <div className="flex flex-row">
-          <a className="text-lg px-5 tracking-wider uppercase">Home</a>
-          <a className="text-lg px-5 tracking-wider uppercase">Project</a>
-          <a className="text-lg px-5 tracking-wider uppercase">About</a>
-          <a className="text-lg px-5 tracking-wider uppercase">Contact</a>
+          <a href='#home' className="text-lg px-5 tracking-wider hover:font-semibold duration-100 uppercase">Home</a>
+          <a href='#projects' className="text-lg px-5 tracking-wider hover:font-semibold duration-100 uppercase">Project</a>
+          <a href='#testimonials' className="text-lg px-5 tracking-wider hover:font-semibold duration-100 uppercase">About</a>
+          <a href='#contacts' className="text-lg px-5 tracking-wider hover:font-semibold duration-100 uppercase">Contact</a>
         </div>
       </div>
     </div>
