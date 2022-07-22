@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { Hero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
+import { SwiperHero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -13,11 +13,11 @@ const Home: NextPage = () => {
       </Head>
 
       <Wrapper>
-        <div className="flex bg-hero-yellow min-h-full max-h-screen w-full">
-          <Hero />
+        <div className="flex min-h-full max-h-screen w-full">
+          <SwiperHero />
         </div>
 
-        <div className="flex bg-hero-home bg-cover bg-center max-h-[70vh] w-full">
+        <div className="flex bg-hero-home bg-cover bg-center bg-no-repeat min-h-[70vh] w-full">
           <Content />
         </div>
 

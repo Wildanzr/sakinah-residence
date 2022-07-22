@@ -30,6 +30,7 @@ module.exports = {
     },
     backgroundImage: {
       'hero-home': "url('../public/images/bg-1.jpg')",
+      'banner-1': "url('../public/images/banner1.jpg')",
       'proj-1': "url('../public/images/proj-1.jpg')",
       'proj-2': "url('../public/images/proj-2.jpg')",
       'proj-3': "url('../public/images/proj-3.jpg')"
@@ -38,7 +39,7 @@ module.exports = {
       poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
       montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
       lemon: ['LEMON MILK', ...defaultTheme.fontFamily.sans],
-      adinnaka: ['Adinnaka', ...defaultTheme.fontFamily.sans],
+      adlinnaka: ['Adlinnaka', ...defaultTheme.fontFamily.sans],
       monument: ['Monument', ...defaultTheme.fontFamily.sans],
       dancing: ['Dancing Script', ...defaultTheme.fontFamily.sans],
       lora: ['Lora', 'serif', ...defaultTheme.fontFamily.sans]
