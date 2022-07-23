@@ -4,6 +4,17 @@ import Head from 'next/head'
 import { SwiperHero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
 
 const Home: NextPage = () => {
+  if (typeof window !== 'undefined') {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault()
+
+        document.querySelector(this?.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        })
+      })
+    })
+  }
   return (
     <div className="flex flex-col w-full bg-white h-screen mx-auto scroll-smooth">
       <Head>
