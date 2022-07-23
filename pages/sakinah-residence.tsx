@@ -6,7 +6,7 @@ import Sk1 from '../public/images/sakinah-residence-1.jpg'
 import Sk2 from '../public/images/sakinah-residence-2.jpg'
 import WhatsApp from '../public/images/whatsapp.png'
 
-import { SwiperHero, Map, Contact, Footer, Wrapper, Detail } from '../components'
+import { SwiperHero, Map, Contact, Footer, Wrapper, Detail, Filler } from '../components'
 
 const Home: NextPage = () => {
   const whatsAppChat = () => {
@@ -47,6 +47,10 @@ const Home: NextPage = () => {
             t2='Mengembangkan hunian perumahan dengan rumah sehat, speck hebat, dan harga hemat. Sehingga terwujud pemukiman yang aman, nyaman, dan lingkungan yang asri. Memberikan kepuasan kepada konsumen dengan menjaga kualitas bangunan yang dapat diandalkan.'
             p2={Sk2}
           />
+        </div>
+
+        <div className="flex bg-hero-home bg-fixed bg-cover bg-center bg-no-repeat w-full min-h-[100vh]">
+          <Filler />
         </div>
 
         <div className="flex w-full bg-white min-h-[400px]">
