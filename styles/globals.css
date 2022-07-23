@@ -7,13 +7,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'LEMON MILK';
     src: url('../public/fonts/lemon_milk/LEMONMILK-Medium.otf');
 }
 
 @font-face {
-    font-family: 'Addinnaka';
+    font-family: 'Adlinnaka';
     src: url('../public/fonts/adinnaka/Adlinnaka-BoldDemo.ttf')
 }
 
@@ -43,6 +47,7 @@
       -1px 1px 0 #000,
        1px 1px 0 #000;
 }
+
 
 .no-scrollbar::-webkit-scrollbar {
     display: none;

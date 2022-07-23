@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import hero from '../public/images/content-2.jpg'
 
-const Hero = () => {
+const Hero1 = () => {
   return (
     <div className="flex container relative justify-between min-h-full max-h-screen">
       <div className="flex px-0 md:px-10 w-full justify-between items-center flex-col md:flex-row-reverse">
@@ -29,4 +29,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero1

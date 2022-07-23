@@ -2,13 +2,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
+import Sk1 from '../public/images/sakinah-residence-1.jpg'
+import Sk2 from '../public/images/sakinah-residence-2.jpg'
 import WhatsApp from '../public/images/whatsapp.png'
 
-import { SwiperHero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
+import { SwiperHero, Map, Contact, Footer, Wrapper, Testimonial, Customer, Detail, Filler, Facilities, Product } from '../components'
 
-import ImgBg from '../public/images/bg-1.jpg'
-
-const Home: NextPage = () => {
+const SakinahResidence: NextPage = () => {
   const whatsAppChat = () => {
     window.open(
       'https://wa.me/6285736822725?text=Hallo%0ASaya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20Sakinah%20Residence',
@@ -36,19 +36,35 @@ const Home: NextPage = () => {
       </Head>
 
       <Wrapper>
-        <div className="flex min-h-full max-h-screen w-full">
+        <div className="flex h-full w-full">
           <SwiperHero />
         </div>
 
-        <div className="flex bg-hero-home bg-cover bg-center bg-no-repeat min-h-[70vh] w-full">
-          <Content />
+        <div className="flex w-full my-10">
+          <Detail
+            t1='Permukiman yang aman, nyaman, dan lingkungan yang asri'
+            p1={Sk1}
+            t2='Mengembangkan hunian perumahan dengan rumah sehat, speck hebat, dan harga hemat. Sehingga terwujud pemukiman yang aman, nyaman, dan lingkungan yang asri. Memberikan kepuasan kepada konsumen dengan menjaga kualitas bangunan yang dapat diandalkan.'
+            p2={Sk2}
+          />
         </div>
 
-        <div className="flex w-full bg-white items-center">
-          <Project />
+        <div className="flex bg-hero-home bg-fixed bg-cover bg-center bg-no-repeat w-full min-h-[100vh]">
+          <Filler />
         </div>
 
-        <div className="flex w-full bg-slate-100">
+        <div className="flex w-full my-10">
+          <Product
+            pic={Sk1}
+            title='Sakinah Residence'
+          />
+        </div>
+
+        <div className="flex w-full my-10">
+          <Facilities />
+        </div>
+
+        <div className="flex w-full bg-white">
           <Testimonial />
         </div>
 
@@ -78,4 +94,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default SakinahResidence
