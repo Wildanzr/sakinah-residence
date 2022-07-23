@@ -1,9 +1,19 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
+
+import WhatsApp from '../public/images/whatsapp.png'
 
 import { SwiperHero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
 
 const Home: NextPage = () => {
+  const whatsAppChat = () => {
+    window.open(
+      'https://wa.me/6285736822725?text=Hallo%0ASaya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20Sakinah%20Residence',
+      '_blank'
+    )
+  }
+
   if (typeof window !== 'undefined') {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
@@ -55,6 +65,11 @@ const Home: NextPage = () => {
         <div className="flex w-full bg-[#242F30]">
           <Footer />
         </div>
+
+        <button onClick={whatsAppChat} title="Contact Us"
+        className="fixed z-40 bottom-8 right-8 bg-blue-600 w-12 h-12 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-blue-700 hover:drop-shadow-2xl hover:animate-bounce duration-300">
+          <Image src={WhatsApp} alt="WhatsApp" className='w-full h-full' />
+        </button>
 
       </Wrapper>
     </div>
