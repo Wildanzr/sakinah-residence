@@ -6,6 +6,8 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
+import Bg from '../public/images/banner1.jpg'
+
 import { Hero1, Hero2 } from './index'
 
 const SwiperHero = () => {
@@ -31,7 +33,7 @@ const SwiperHero = () => {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="flex bg-banner-1 bg-center bg-cover min-h-full max-h-screen w-full">
+        <div className="flex min-h-full max-h-screen w-full" style={{ background: `url(${Bg.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <Hero2 />
         </div>
         </SwiperSlide>
