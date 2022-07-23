@@ -22,7 +22,7 @@ const SwiperHero = () => {
         }}
         navigation={true}
         modules={[Autoplay, Navigation]}
-        className="mySwiper w-full h-full"
+        className="mySwiper w-full h-screen"
         id='home'
       >
         <SwiperSlide>
