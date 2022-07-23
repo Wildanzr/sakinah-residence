@@ -3,9 +3,10 @@ import Image, { StaticImageData } from 'next/image'
 
 interface ProductProps {
   pic: StaticImageData
+  title: string
 }
 const Product = (props: ProductProps) => {
-  const { pic } = props
+  const { pic, title } = props
   // Local State
   const [durationAndTax] = useState([
     {
@@ -113,7 +114,7 @@ const Product = (props: ProductProps) => {
   return (
     <div className="container flex flex-col h-full items-center justify-center">
       <h3 className="flex text-3xl font-lemon tracking-widest text-center my-5">
-        SAKINAH RESIDENCE
+        {title}
       </h3>
       <div className="flex flex-col md:flex-row w-full h-full items-center justify-between pt-10">
         <div className="flex w-full md:w-1/2 h-full items-center justify-center">

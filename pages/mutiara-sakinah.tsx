@@ -42,9 +42,9 @@ const MutiaraSakinah: NextPage = () => {
 
         <div className="flex w-full my-10">
           <Detail
-            t1='Permukiman yang aman, nyaman, dan lingkungan yang asri'
+            t1='Menghadirkan hunian dengan rumah sehat, speck hebat, dan harga hemat'
             p1={Sk1}
-            t2='Mengembangkan hunian perumahan dengan rumah sehat, speck hebat, dan harga hemat. Sehingga terwujud pemukiman yang aman, nyaman, dan lingkungan yang asri. Memberikan kepuasan kepada konsumen dengan menjaga kualitas bangunan yang dapat diandalkan.'
+            t2='Menghadirkan hunian eksklusif dengan beragam konsep mulai dari islamic modern style hingga european country style, Adyna Residence menjawab kebutuhan anda untuk memiliki hunian dengan best value yang sempurna. terdapat view gunung dan sungai sehingga sangat asri dan nyaman untuk rumah tinggal maupun rumah singgah.'
             p2={Sk2}
           />
         </div>
@@ -56,6 +56,7 @@ const MutiaraSakinah: NextPage = () => {
         <div className="flex w-full my-10">
           <Product
             pic={Sk1}
+            title='Mutiara Sakinah'
           />
         </div>
 

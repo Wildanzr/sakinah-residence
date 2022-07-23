@@ -56,6 +56,7 @@ const SakinahResidence: NextPage = () => {
         <div className="flex w-full my-10">
           <Product
             pic={Sk1}
+            title='Sakinah Residence'
           />
         </div>
 

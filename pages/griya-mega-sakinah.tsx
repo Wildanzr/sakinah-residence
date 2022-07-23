@@ -42,7 +42,7 @@ const GriyaMegaSakinah: NextPage = () => {
 
         <div className="flex w-full my-10">
           <Detail
-            t1='Permukiman yang aman, nyaman, dan lingkungan yang asri'
+            t1='Menghadirkan hunian dengan rumah sehat, speck hebat, dan harga hemat'
             p1={Sk1}
             t2='Mengembangkan hunian perumahan dengan rumah sehat, speck hebat, dan harga hemat. Sehingga terwujud pemukiman yang aman, nyaman, dan lingkungan yang asri. Memberikan kepuasan kepada konsumen dengan menjaga kualitas bangunan yang dapat diandalkan.'
             p2={Sk2}
@@ -56,6 +56,7 @@ const GriyaMegaSakinah: NextPage = () => {
         <div className="flex w-full my-10">
           <Product
             pic={Sk1}
+            title='Griya Mega Sakinah'
           />
         </div>
 
