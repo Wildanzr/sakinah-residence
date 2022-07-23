@@ -19,7 +19,7 @@ const Wrapper = (props: LayoutProps) => {
       <div className="drawer-side">
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
         <div className="flex flex-col font-poppins font-medium p-4 overflow-y-auto w-56 bg-white">
-          <a className="text-lg py-3 tracking-wider uppercase">Home</a>
+          <a href='#home' className="text-lg py-3 tracking-wider uppercase">Home</a>
           <div className="collapse">
             <input type="checkbox"/>
             <div className="collapse-title text-lg py-3 tracking-wider uppercase" style={{ paddingLeft: 0 }}>
@@ -37,8 +37,8 @@ const Wrapper = (props: LayoutProps) => {
               </li>
             </ul>
           </div>
-          <a className="text-lg py-3 tracking-wider uppercase">About</a>
-          <a className="text-lg py-3 tracking-wider uppercase">Contact</a>
+          <a href='#testimonials' className="text-lg py-3 tracking-wider uppercase">About</a>
+          <a href='#contacts' className="text-lg py-3 tracking-wider uppercase">Contact</a>
         </div>
       </div>
     </div>
