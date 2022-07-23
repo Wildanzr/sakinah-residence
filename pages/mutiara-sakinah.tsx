@@ -2,13 +2,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
-import Sk1 from '../public/images/sakinah-residence-1.jpg'
-import Sk2 from '../public/images/sakinah-residence-2.jpg'
+import Sk1 from '../public/images/mutiara-sakinah-1.jpg'
+import Sk2 from '../public/images/mutiara-sakinah-2.jpg'
 import WhatsApp from '../public/images/whatsapp.png'
 
 import { SwiperHero, Map, Contact, Footer, Wrapper, Testimonial, Customer, Detail, Filler, Facilities, Product } from '../components'
 
-const SakinahResidence: NextPage = () => {
+const MutiaraSakinah: NextPage = () => {
   const whatsAppChat = () => {
     window.open(
       'https://wa.me/6285736822725?text=Hallo%0ASaya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20Sakinah%20Residence',
@@ -93,4 +93,4 @@ const SakinahResidence: NextPage = () => {
   )
 }
 
-export default SakinahResidence
+export default MutiaraSakinah

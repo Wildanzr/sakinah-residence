@@ -1,9 +1,11 @@
 import { useState } from 'react'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
-import Sk1 from '../public/images/sakinah-residence-1.jpg'
-
-const Product = () => {
+interface ProductProps {
+  pic: StaticImageData
+}
+const Product = (props: ProductProps) => {
+  const { pic } = props
   // Local State
   const [durationAndTax] = useState([
     {
@@ -117,7 +119,7 @@ const Product = () => {
         <div className="flex w-full md:w-1/2 h-full items-center justify-center">
           <div className="flex flex-col w-9/12">
             <Image
-              src={Sk1}
+              src={pic}
               alt="Sakinah Residence"
               className="w-full h-full object-cover"
             />
