@@ -6,7 +6,7 @@ import Sk1 from '../public/images/sakinah-residence-1.jpg'
 import Sk2 from '../public/images/sakinah-residence-2.jpg'
 import WhatsApp from '../public/images/whatsapp.png'
 
-import { SwiperHero, Map, Contact, Footer, Wrapper, Detail, Filler, Facilities } from '../components'
+import { SwiperHero, Map, Contact, Footer, Wrapper, Detail, Filler, Facilities, Product } from '../components'
 
 const Home: NextPage = () => {
   const whatsAppChat = () => {
@@ -51,6 +51,10 @@ const Home: NextPage = () => {
 
         <div className="flex bg-hero-home bg-fixed bg-cover bg-center bg-no-repeat w-full min-h-[100vh]">
           <Filler />
+        </div>
+
+        <div className="flex w-full my-10">
+          <Product />
         </div>
 
         <div className="flex w-full my-10">
