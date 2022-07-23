@@ -6,6 +6,8 @@ import WhatsApp from '../public/images/whatsapp.png'
 
 import { SwiperHero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
 
+import ImgBg from '../public/images/bg-1.jpg'
+
 const Home: NextPage = () => {
   const whatsAppChat = () => {
     window.open(
@@ -46,7 +48,7 @@ const Home: NextPage = () => {
           <Project />
         </div>
 
-        <div className="flex w-full bg-white">
+        <div className="flex w-full bg-slate-100">
           <Testimonial />
         </div>
 
