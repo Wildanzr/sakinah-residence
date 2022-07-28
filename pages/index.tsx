@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import HeroHome from '../public/images/bg-1.jpg'
 
 import { SwiperHero, Content, Project, Testimonial, Customer, Map, Contact, Footer, Wrapper } from '../components'
 
@@ -36,7 +35,7 @@ const Home: NextPage = () => {
           <SwiperHero />
         </div>
 
-        <div className="flex bg-no-repeat min-h-[70vh] w-full" style={{ background: `url(${HeroHome.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="flex bg-no-repeat min-h-[70vh] w-full bg-[#98724B]">
           <Content />
         </div>
 

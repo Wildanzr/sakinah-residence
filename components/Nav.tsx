@@ -5,7 +5,7 @@ const Nav = () => {
     <div className="container flex flex-row navbar justify-between">
       <div className="flex h-12 w-28 mx-2 lg:mx-5 items-center justify-center">
         <Link href="/">
-          <img src='/images/logo-sakinah.png' alt="Sakinah Residence Logo" className='w-full h-full cursor-pointer'/>
+          <img src='/images/logo-sakinah.png' alt="Sakinah Residence Logo" className='w-full h-full object-cover cursor-pointer'/>
         </Link>
       </div>
 

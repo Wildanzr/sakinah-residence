@@ -12,7 +12,7 @@ const Content = () => {
       </div>
 
       <div className="hidden md:flex w-4/12 h-[300px] bg-slate-600">
-        <img src='/images/content-1.jpg' alt="hero" className="object-cover brightness-75" />
+        <img src='/images/content-1.jpg' alt="hero" className="w-full h-full object-cover" />
       </div>
     </div>
   )
