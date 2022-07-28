@@ -1,13 +1,9 @@
-import Image from 'next/image'
-
-import hero from '../public/images/content-2.jpg'
-
 const Hero1 = () => {
   return (
     <div className="flex container relative justify-between min-h-full max-h-screen">
       <div className="flex px-0 md:px-10 w-full justify-between items-center flex-col md:flex-row-reverse">
         <div className="flex relative w-full h-4/6 md:h-3/6 border-white border-4 md:border-[15px]">
-          <Image src={hero} alt="hero" className="w-full h-full object-cover" />
+          <img src='/images/content-2.jpg' alt="hero" className="w-full h-full object-cover" />
           <div className="flex absolute font-adinnaka font-bold text-3xl bottom-[8%] md:-left-[18%] px-1 bg-[#FEB60C]">
             <p>NOL DP</p>
           </div>

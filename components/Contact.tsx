@@ -1,11 +1,8 @@
-import Image from 'next/image'
-import Logo from '../public/images/logo-sakinah.png'
-
 const Contact = () => {
   return (
     <div className="container grid auto-rows-auto md:grid-cols-3 gap-0 px-5 py-5 h-full text-white" id='contacts'>
       <div className="flex w-full px-10 lg:px-5 items-center justify-center">
-        <Image src={Logo} alt="Sakinah Residence Logo"/>
+        <img src='/images/logo-sakinah.png' alt="Sakinah Residence Logo"/>
       </div>
 
       <div className="flex flex-col w-full items-start justify-center">

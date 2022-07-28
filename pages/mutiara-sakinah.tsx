@@ -1,10 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-
-import Sk1 from '../public/images/mutiara-sakinah-1.jpg'
-import Sk2 from '../public/images/mutiara-sakinah-2.jpg'
-import WhatsApp from '../public/images/whatsapp.png'
 
 import { SwiperHero, Map, Contact, Footer, Wrapper, Testimonial, Customer, Detail, Filler, Facilities, Product } from '../components'
 
@@ -43,9 +38,9 @@ const MutiaraSakinah: NextPage = () => {
         <div className="flex w-full my-10">
           <Detail
             t1='Menghadirkan hunian dengan rumah sehat, speck hebat, dan harga hemat'
-            p1={Sk1}
+            p1='/images/mutiara-sakinah-1.jpg'
             t2='Menghadirkan hunian eksklusif dengan beragam konsep mulai dari islamic modern style hingga european country style, Adyna Residence menjawab kebutuhan anda untuk memiliki hunian dengan best value yang sempurna. terdapat view gunung dan sungai sehingga sangat asri dan nyaman untuk rumah tinggal maupun rumah singgah.'
-            p2={Sk2}
+            p2='/images/mutiara-sakinah-2.jpg'
           />
         </div>
 
@@ -55,7 +50,7 @@ const MutiaraSakinah: NextPage = () => {
 
         <div className="flex w-full my-10">
           <Product
-            pic={Sk1}
+            pic='/images/mutiara-sakinah-1.jpg'
             title='Mutiara Sakinah'
           />
         </div>
@@ -72,7 +67,7 @@ const MutiaraSakinah: NextPage = () => {
           <Customer />
         </div>
 
-        <div className="flex w-full bg-white min-h-[400px]">
+        <div className="flex w-full bg-white">
           <Map />
         </div>
 
@@ -86,7 +81,7 @@ const MutiaraSakinah: NextPage = () => {
 
         <button onClick={whatsAppChat} title="Contact Us"
         className="fixed z-40 bottom-8 right-8 bg-blue-600 w-12 h-12 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-blue-700 hover:drop-shadow-2xl hover:animate-bounce duration-300">
-          <Image src={WhatsApp} alt="WhatsApp" className='w-full h-full' />
+          <img src='/images/whatsapp.png' alt="WhatsApp" className='w-full h-full' />
         </button>
 
       </Wrapper>

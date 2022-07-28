@@ -1,7 +1,3 @@
-import Image from 'next/image'
-
-import Content1 from '../public/images/content-1.jpg'
-
 const Content = () => {
   return (
     <div className="flex container flex-col md:flex-row h-full items-center justify-evenly py-10 text-white">
@@ -16,7 +12,7 @@ const Content = () => {
       </div>
 
       <div className="hidden md:flex w-4/12 h-[300px] bg-slate-600">
-        <Image src={Content1} alt="hero" className="object-cover brightness-75" />
+        <img src='/images/content-1.jpg' alt="hero" className="object-cover brightness-75" />
       </div>
     </div>
   )

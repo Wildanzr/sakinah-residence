@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import Image, { StaticImageData } from 'next/image'
 
 interface ProductProps {
-  pic: StaticImageData
+  pic: string
   title: string
 }
 const Product = (props: ProductProps) => {
@@ -119,7 +118,7 @@ const Product = (props: ProductProps) => {
       <div className="flex flex-col md:flex-row w-full h-full items-center justify-between pt-10">
         <div className="flex w-full md:w-1/2 h-full items-center justify-center">
           <div className="flex flex-col w-9/12">
-            <Image
+            <img
               src={pic}
               alt="Sakinah Residence"
               className="w-full h-full object-cover"

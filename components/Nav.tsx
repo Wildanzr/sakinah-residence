@@ -1,14 +1,11 @@
-import Image from 'next/image'
 import Link from 'next/link'
-
-import LogoSakinah from '../public/images/logo-sakinah.png'
 
 const Nav = () => {
   return (
     <div className="container flex flex-row navbar justify-between">
       <div className="flex h-12 w-28 mx-2 lg:mx-5 items-center justify-center">
         <Link href="/">
-          <Image src={LogoSakinah} alt="Sakinah Residence Logo" className='w-full h-full cursor-pointer'/>
+          <img src='/images/logo-sakinah.png' alt="Sakinah Residence Logo" className='w-full h-full cursor-pointer'/>
         </Link>
       </div>
 
