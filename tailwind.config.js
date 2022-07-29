@@ -44,7 +44,8 @@ module.exports = {
       dancing: ['Dancing Script', ...defaultTheme.fontFamily.sans],
       lora: ['Lora', 'serif', ...defaultTheme.fontFamily.sans],
       ubuntu: ['Ubuntu', ...defaultTheme.fontFamily.sans],
-      cormorant: ['Cormorant SC', ...defaultTheme.fontFamily.sans]
+      cormorant: ['Cormorant SC', ...defaultTheme.fontFamily.sans],
+      lexend: ['Lexend Deca', ...defaultTheme.fontFamily.sans]
     }
   },
   plugins: [require('daisyui')]

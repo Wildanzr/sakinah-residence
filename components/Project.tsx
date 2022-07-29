@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Project = () => {
   return (
     <div className="flex container flex-col justify-center" id='projects'>
-        <h3 className='text-3xl font-lemon tracking-widest text-center my-10'>OUR PROJECT</h3>
+        <h3 className='text-4xl font-lexend font-bold tracking-widest text-center my-10'>OUR PROJECT</h3>
 
         <div className="w-full h-[1200px] md:h-[450px] grid auto-rows-auto md:grid-cols-3 gap-0 text-white">
 
