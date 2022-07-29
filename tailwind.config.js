@@ -42,7 +42,9 @@ module.exports = {
       adlinnaka: ['Adlinnaka', ...defaultTheme.fontFamily.sans],
       monument: ['Monument', ...defaultTheme.fontFamily.sans],
       dancing: ['Dancing Script', ...defaultTheme.fontFamily.sans],
-      lora: ['Lora', 'serif', ...defaultTheme.fontFamily.sans]
+      lora: ['Lora', 'serif', ...defaultTheme.fontFamily.sans],
+      ubuntu: ['Ubuntu', ...defaultTheme.fontFamily.sans],
+      cormorant: ['Cormorant SC', ...defaultTheme.fontFamily.sans]
     }
   },
   plugins: [require('daisyui')]
