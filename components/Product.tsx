@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 interface ProductProps {
   pic: string
   title: string
@@ -7,62 +6,18 @@ interface ProductProps {
 const Product = (props: ProductProps) => {
   const { pic, title } = props
   // Local State
-  const [durationAndTax] = useState([
-    {
-      duration: 5,
-      str: '5',
-      fee: 0.132272
-    },
-    {
-      duration: 6,
-      str: '6',
-      fee: 0.1595528
-    },
-    {
-      duration: 7,
-      str: '7',
-      fee: 0.1872476
-    },
-    {
-      duration: 8,
-      str: '8',
-      fee: 0.2153504
-    },
-    {
-      duration: 9,
-      str: '9',
-      fee: 0.2438684
-    },
-    {
-      duration: 10,
-      str: '10',
-      fee: 0.272792
-    },
-    {
-      duration: 11,
-      str: '11',
-      fee: 0.302114
-    },
-    {
-      duration: 12,
-      str: '12',
-      fee: 0.3318416
-    },
-    {
-      duration: 13,
-      str: '13',
-      fee: 0.3619736
-    },
-    {
-      duration: 14,
-      str: '14',
-      fee: 0.3925016
-    },
-    {
-      duration: 15,
-      str: '15',
-      fee: 0.423422
-    }
+  const [durations] = useState([
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ])
   const [credits] = useState([
     10_000_000,
@@ -80,26 +35,47 @@ const Product = (props: ProductProps) => {
     133_000_000,
     143_000_000
   ])
+  const [rate] = useState(0.004)
+
   // Local Result
-  const [loanCredit, setLoadCredit] = useState(credits[0].toString())
-  const [loanDuration, setLoanDuration] = useState(durationAndTax[0].str)
-  const [result, setResult] = useState(188_712)
+  const [loanCredit, setLoadCredit] = useState(credits[0])
+  const [loanDuration, setLoanDuration] = useState(durations[0])
+  const [result, setResult] = useState(187_798)
+
+  // PMT
+  const countPMT = (rate: any, nper: any, pv: any, fv: any, type: any) => {
+    /*
+     * rate   - interest rate per month
+     * nper   - number of periods (months)
+     * pv   - present value
+     * fv   - future value
+     * type - when the payments are due:
+     *        0: end of the period, e.g. end of month (default)
+     *        1: beginning of period
+     */
+    let pmt = 0
+
+    fv || (fv = 0)
+    type || (type = 0)
+
+    if (rate === 0) { return -(pv + fv) / nper }
+
+    const pvif = Math.pow(1 + rate, nper)
+    pmt = -rate * (pv * pvif + fv) / (pvif - 1)
+
+    if (type === 1) { pmt /= (1 + rate) }
+
+    setResult(Math.ceil(pmt * -1))
+    return pmt * -1
+  }
 
   const rupiah = (number: any) => {
     return new Intl.NumberFormat('id-ID', {
       style: 'currency',
-      currency: 'IDR'
+      currency: 'IDR',
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0
     }).format(number)
-  }
-
-  const count = () => {
-    // Find index of loanDuration in durationAndTax
-    const index = durationAndTax.findIndex(
-      (item: any) => item.str === loanDuration
-    )
-    const duration = parseInt(loanDuration)
-    const credit = parseInt(loanCredit)
-    setResult((durationAndTax[index].fee * credit + credit) / (duration * 12))
   }
 
   const handleChangeCredit = (e: any) => {
@@ -154,9 +130,9 @@ const Product = (props: ProductProps) => {
                 <option disabled selected>
                   Pilihan Jangka Waktu
                 </option>
-                {durationAndTax.map((item, index) => (
-                  <option key={index} value={item.duration}>
-                    {item.duration} Tahun ({item.duration * 12} Bulan)
+                {durations.map((year, index) => (
+                  <option key={index} value={year}>
+                    {year} Tahun ({year * 12} Bulan)
                   </option>
                 ))}
               </select>
@@ -166,7 +142,7 @@ const Product = (props: ProductProps) => {
           <div className="flex w-full items-end justify-start px-5 py-2">
             <button
                 className="btn btn-primary btn-sm"
-                onClick={count}
+                onClick={() => countPMT(rate, (loanDuration * 12), loanCredit, 0, 0)}
               >
                 Hitung
               </button>

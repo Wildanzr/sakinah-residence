@@ -10,8 +10,8 @@ const Hero1 = () => {
         </div>
 
         <div className='flex w-full h-2/6 md:h-3/6 flex-col justify-start md:justify-center text-center md:text-left my-10'>
-          <h1 className="text-4xl md:text-6xl font-poppins font-semibold tracking-widest">KARYA CIPTA</h1>
-          <h1 className="text-5xl md:text-6xl font-poppins font-semibold tracking-widest pt-3">SAKINAH</h1>
+          <h1 className="text-4xl md:text-6xl font-lexend font-semibold tracking-widest">KARYA CIPTA</h1>
+          <h1 className="text-5xl md:text-6xl font-lexend font-semibold tracking-widest pt-3">SAKINAH</h1>
           <p className="py-6 text-base md:text-xl font-poppins">
             Pemukiman yang aman, nyaman, <br /> dan lingkungan yang asri.
           </p>
