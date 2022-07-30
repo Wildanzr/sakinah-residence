@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { SwiperHero, Map, Contact, Footer, Wrapper, Testimonial, Customer, Detail, Filler, Facilities, Product } from '../components'
+import { SwiperHero, Map, Contact, Footer, Wrapper, Testimonial, Customer, Detail, Facilities, Product } from '../components'
 
 const MutiaraSakinah: NextPage = () => {
   const whatsAppChat = () => {
@@ -35,17 +35,13 @@ const MutiaraSakinah: NextPage = () => {
           <SwiperHero />
         </div>
 
-        <div className="flex w-full my-10">
+        <div className="flex w-full my-20">
           <Detail
             t1='Menghadirkan hunian dengan rumah sehat, speck hebat, dan harga hemat'
-            p1='/images/mutiara-sakinah-1.jpg'
+            p1='/images/detail-mutiara-1.jpg'
             t2='Menghadirkan hunian eksklusif dengan beragam konsep mulai dari islamic modern style hingga european country style, Adyna Residence menjawab kebutuhan anda untuk memiliki hunian dengan best value yang sempurna. terdapat view gunung dan sungai sehingga sangat asri dan nyaman untuk rumah tinggal maupun rumah singgah.'
-            p2='/images/mutiara-sakinah-2.jpg'
+            p2='/images/detail-mutiara-2.jpg'
           />
-        </div>
-
-        <div className="flex bg-hero-home bg-fixed bg-cover bg-center bg-no-repeat w-full min-h-[100vh]">
-          <Filler />
         </div>
 
         <div className="flex w-full my-10">
