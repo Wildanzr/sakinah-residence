@@ -6,7 +6,7 @@ import { SwiperHero, Map, Contact, Footer, Wrapper, SitePlan, Detail, Facilities
 const SakinahResidence: NextPage = () => {
   const whatsAppChat = () => {
     window.open(
-      'https://wa.me/6285736822725?text=Hallo%0ASaya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20Sakinah%20Residence',
+      'https://wa.me/6282331424705?text=Hallo%0ASaya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20Sakinah%20Residence',
       '_blank'
     )
   }

@@ -38,9 +38,6 @@ module.exports = {
     fontFamily: {
       poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
       montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
-      lemon: ['LEMON MILK', ...defaultTheme.fontFamily.sans],
-      adlinnaka: ['Adlinnaka', ...defaultTheme.fontFamily.sans],
-      monument: ['Monument', ...defaultTheme.fontFamily.sans],
       dancing: ['Dancing Script', ...defaultTheme.fontFamily.sans],
       lora: ['Lora', 'serif', ...defaultTheme.fontFamily.sans],
       ubuntu: ['Ubuntu', ...defaultTheme.fontFamily.sans],

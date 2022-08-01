@@ -4,7 +4,7 @@ const Hero1 = () => {
       <div className="flex px-0 md:px-10 w-full justify-between items-center flex-col md:flex-row-reverse">
         <div className="flex relative w-full h-4/6 border-white border-4 md:border-[15px]">
           <img src='/images/hero-img.jpg' alt="hero" className="w-full h-full object-cover" />
-          <div className="flex absolute font-adinnaka font-bold text-3xl bottom-[8%] md:-left-[18%] px-1 bg-[#FEB60C]">
+          <div className="flex absolute font-ubuntu font-bold text-3xl bottom-[8%] md:-left-[18%] px-1 bg-[#FEB60C]">
             <p>NOL DP</p>
           </div>
         </div>
@@ -18,7 +18,7 @@ const Hero1 = () => {
         </div>
       </div>
 
-      <p className='flex absolute font-monument font-black text-5xl md:text-8xl bottom-[5%] -left-[25%] md:-left-[10%] tracking-wider opacity-[5%]'>
+      <p className='flex absolute font-black text-5xl md:text-8xl bottom-[5%] -left-[25%] md:-left-[10%] tracking-wider opacity-[5%]'>
         KARYA CIPTA <br /> SAKINAH
       </p>
     </div>

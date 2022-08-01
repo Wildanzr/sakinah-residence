@@ -6,7 +6,7 @@ const Contact = () => {
       </div>
 
       <div className="flex flex-col w-full items-start justify-start">
-        <h3 className="w-full font-poppins font-semibold text-lg my-5 text-center md:text-left">
+        <h3 className="w-full font-poppins font-semibold text-lg my-5 md:text-left">
           Address List
         </h3>
 
@@ -44,18 +44,18 @@ const Contact = () => {
           </svg>
 
           <div className="flex flex-col">
-            <p className="font-poppins text-sm text-left pl-3 py-1">
+            <a href="tel:+6282331424705" className="font-poppins text-sm text-left pl-3 py-1">
               +628-233-142-4705
-            </p>
-            <p className="font-poppins text-sm text-left pl-3 py-1">
+            </a>
+            <a href="tel:+6281231994893" className="font-poppins text-sm text-left pl-3 py-1">
               +628-123-199-4893
-            </p>
+            </a>
           </div>
         </div>
       </div>
 
       <div className="flex flex-col w-full items-start justify-start">
-        <h3 className="w-full font-poppins font-semibold text-lg my-5 text-center md:text-left">
+        <h3 className="w-full font-poppins font-semibold text-lg my-5 md:text-left">
           Social Network
         </h3>
 

@@ -21,7 +21,7 @@ const SwiperHero = (props: SwiperHeroProps) => {
       spaceBetween={30}
       centeredSlides={true}
       autoplay={{
-        delay: 30000,
+        delay: 10000,
         disableOnInteraction: false
       }}
       pagination={{

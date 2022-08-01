@@ -14,21 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: "LEMON MILK";
-  src: url("../public/fonts/lemon_milk/LEMONMILK-Medium.otf");
-}
-
-@font-face {
-  font-family: "Adlinnaka";
-  src: url("../public/fonts/adinnaka/Adlinnaka-BoldDemo.ttf");
-}
-
-@font-face {
-  font-family: "Monument";
-  scr: url("../public/fonts/monumentextended/MonumentExtended-Regular.otf");
-}
-
 .bg-hero-yellow {
   background: linear-gradient(
     180deg,

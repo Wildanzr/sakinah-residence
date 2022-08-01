@@ -88,7 +88,7 @@ const Product = (props: ProductProps) => {
 
   return (
     <div className="container flex flex-col h-full items-center justify-center px-5 md:px-10">
-      <h3 className="flex text-3xl font-lemon tracking-widest text-center py-5 md:py-10">
+      <h3 className="flex text-3xl font-lexend font-bold tracking-widest text-center py-5 md:py-10">
         {title}
       </h3>
       <div className="flex flex-col md:flex-row w-full h-full items-center justify-between">
@@ -140,7 +140,7 @@ const Product = (props: ProductProps) => {
                   <p className='flex w-full md:w-1/3 font-poppins font-medium text-base px-5'>Kredit Maksimum</p>
                   <div className="form-control w-full max-w-xs">
                     <select defaultValue={0} onChange={handleChangeCredit} className="select select-bordered select-sm bg-white font-poppins text-sm font-light">
-                      <option disabled selected>
+                      <option disabled >
                         Pilihan Jumlah Kredit
                       </option>
                       {credits.map((credit, index) => (
@@ -156,7 +156,7 @@ const Product = (props: ProductProps) => {
                   <p className='flex w-full md:w-1/3 font-poppins font-medium text-base px-5'>Jangka Waktu</p>
                   <div className="form-control w-full max-w-xs">
                     <select defaultValue={0} onChange={handleChangeDuration} className="select select-bordered select-sm bg-white font-poppins text-sm font-light">
-                      <option disabled selected>
+                      <option disabled>
                         Pilihan Jangka Waktu
                       </option>
                       {durations.map((year, index) => (
