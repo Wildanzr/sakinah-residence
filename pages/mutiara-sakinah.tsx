@@ -44,7 +44,7 @@ const MutiaraSakinah: NextPage = () => {
           />
         </div>
 
-        <div className="flex w-full my-5 md:my-10">
+        <div className="flex w-full my-5 md:my-10 bg-[#DDDDDD]">
           <Product
             pic='/images/mutiara-sakinah-1.jpg'
             title='OUR SPECIFICATIONS'
