@@ -1,7 +1,3 @@
-import Person1 from '../public/images/photo-1.jpeg'
-import Person2 from '../public/images/photo-2.jpg'
-import Person3 from '../public/images/photo-3.jpeg'
-
 const Testimonial = () => {
   return (
     <div
@@ -22,15 +18,7 @@ const Testimonial = () => {
             </p>
           </div>
 
-          <div
-            className="flex w-2/6 h-2/6 bg-slate-600 rounded-full items-center justify-center mt-10"
-            style={{
-              backgroundImage: `url(${Person1.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
-            }}
-          ></div>
+          <div className="flex w-2/6 h-2/6 bg-slate-600 rounded-full items-center justify-center mt-10 bg-[url('/images/pic1.png')] bg-cover bg-center bg-no-repeat" />
 
           <div className="flex flex-col my-4 items-center justify-center text-black">
             <p className="font-poppins font-semibold text-xl">Agus Setiawan</p>
@@ -46,15 +34,7 @@ const Testimonial = () => {
             </p>
           </div>
 
-          <div
-            className="flex w-2/6 h-2/6 bg-slate-600 rounded-full items-center justify-center mt-10"
-            style={{
-              backgroundImage: `url(${Person2.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
-            }}
-          ></div>
+          <div className="flex w-2/6 h-2/6 bg-slate-600 rounded-full items-center justify-center mt-10 bg-[url('/images/pic2.png')] bg-cover bg-center bg-no-repeat" />
 
           <div className="flex flex-col my-4 items-center justify-center text-black">
             <p className="font-poppins font-semibold text-xl">Haris Romadhon</p>
@@ -70,18 +50,10 @@ const Testimonial = () => {
             </p>
           </div>
 
-          <div
-            className="flex w-2/6 h-2/6 bg-slate-600 rounded-full items-center justify-center mt-10"
-            style={{
-              backgroundImage: `url(${Person3.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
-            }}
-          ></div>
+          <div className="flex w-2/6 h-2/6 bg-slate-600 rounded-full items-center justify-center mt-10 bg-[url('/images/pic3.png')] bg-cover bg-center bg-no-repeat" />
 
           <div className="flex flex-col my-4 items-center justify-center text-black">
-            <p className="font-poppins font-semibold text-xl">Achma Apep</p>
+            <p className="font-poppins font-semibold text-xl">Dewi Aminah</p>
             <span className="font-poppins font-light text-sm">Dokter</span>
           </div>
         </div>

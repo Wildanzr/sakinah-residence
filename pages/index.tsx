@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <Head>
         <title className="text-5xl font-bold">Sakinah Residence</title>
         <meta name="description" content="Perumahan Subsidi Sakinah Residence Probolinggo" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favico.png" />
       </Head>
 
       <Wrapper>
