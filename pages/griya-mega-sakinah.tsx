@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { SwiperHero, Map, Contact, Footer, Wrapper, Testimonial, Customer, Detail, Facilities, Product } from '../components'
+import { SwiperHero, Map, Contact, Footer, Wrapper, Testimonial, Customer, Detail, Facilities, Product, Hero3, Hero4 } from '../components'
 
 const GriyaMegaSakinah: NextPage = () => {
   const whatsAppChat = () => {
@@ -32,7 +32,20 @@ const GriyaMegaSakinah: NextPage = () => {
 
       <Wrapper>
         <div className="flex h-full w-full">
-          <SwiperHero />
+          <SwiperHero
+            Hero1={<Hero3
+              t1="GRIYA MEGA"
+              t1font="font-cormorant"
+              t2="SAKINAH"
+              t2font="font-cormorant"
+              content="Permukiman yang aman, nyaman, dan lingkungan yang asri"
+              img="/images/banner-griya.png"
+              col="text-white"
+              />}
+            bg1="bg-[#98724B]"
+            bg2="bg-[#FFF4DB]"
+            Hero2={<Hero4 />}
+          />
         </div>
 
         <div className="flex w-full my-20">

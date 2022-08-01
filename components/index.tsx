@@ -1,6 +1,8 @@
 export { default as Nav } from './Nav'
 export { default as Hero1 } from './Hero1'
 export { default as Hero2 } from './Hero2'
+export { default as Hero3 } from './Hero3'
+export { default as Hero4 } from './Hero4'
 export { default as SwiperHero } from './SwiperHero'
 export { default as Content } from './Content'
 export { default as Project } from './Project'
