@@ -25,8 +25,17 @@ const GriyaMegaSakinah: NextPage = () => {
   return (
     <div className="flex flex-col w-full bg-white h-screen mx-auto scroll-smooth">
       <Head>
-        <title className="text-5xl font-bold">Sakinah Residence</title>
-        <meta name="description" content="Perumahan Subsidi Sakinah Residence Probolinggo" />
+        <title className="text-5xl font-bold">Griya Mega Sakinah | Rumah Sehat Speck Hebat Harga Hemat</title>
+        <meta charSet="UTF-8" />
+        <meta name="description" content="Sakinah Residence Probolinggo, Perumahan Subsidi dengan Speck Hebat, Harga Hemat dan Sehat" />
+        <meta name="keywords" content="sakinah residence, perumahan sakinah, sakinah probolinggo, sakinah residence probolinggo, perumahan subsidi, perumahan paiton,
+        perumahan murah, perumahan islami, perumahan, perumahan sakinah paiton, perumahan bagus, jual perumahan, sewa perumahan, jasa perumahan" />
+        <meta name="author" content="Sakinah Residence" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta property="og:title" content="Sakinah Residence - Rumah Sehat Speck Hebat Harga Hemat" />
+        <meta property="og:description" content="Sakinah Residence Probolinggo, Perumahan Subsidi dengan Speck Hebat, Harga Hemat dan Sehat" />
+        <meta property="og:image" content="https://sakinahresidence.com/images/sakinah-residence-2.jpg" />
         <link rel="icon" href="/images/favico.png" />
       </Head>
 
