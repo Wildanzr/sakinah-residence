@@ -7,7 +7,7 @@ interface Props {
 const Detail = (props: Props) => {
   const { t1, p1, t2, p2 } = props
   return (
-    <div className="container h-full items-center grid auto-rows-auto md:grid-cols-2 gap-3 md:gap-10">
+    <div className="container h-full items-center grid auto-rows-auto md:grid-cols-2 gap-3 md:gap-10 px-10">
         <div className="flex flex-col w-full h-full">
           <div className="flex w-full h-2/6 items-center">
             <p className='flex w-full text-center justify-center font-lora text-lg md:text-2xl px-5 py-4 md:py-10'>{t1}</p>
