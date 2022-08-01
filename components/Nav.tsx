@@ -52,7 +52,7 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <a href='#testimonials' className="text-lg px-5 tracking-wider hover:font-semibold duration-100 uppercase">About</a>
+          <a href='#about' className="text-lg px-5 tracking-wider hover:font-semibold duration-100 uppercase">About</a>
           <a href='#contacts' className="text-lg px-5 tracking-wider hover:font-semibold duration-100 uppercase">Contact</a>
         </div>
       </div>

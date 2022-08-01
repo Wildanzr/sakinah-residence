@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { SwiperHero, Map, Contact, Footer, Wrapper, Testimonial, Customer, Detail, Facilities, Product, Hero3, Hero4 } from '../components'
+import { SwiperHero, Map, Contact, Footer, Wrapper, Detail, Facilities, SitePlan, Product, Hero3, Hero4 } from '../components'
 
 const GriyaMegaSakinah: NextPage = () => {
   const whatsAppChat = () => {
@@ -27,7 +27,7 @@ const GriyaMegaSakinah: NextPage = () => {
       <Head>
         <title className="text-5xl font-bold">Sakinah Residence</title>
         <meta name="description" content="Perumahan Subsidi Sakinah Residence Probolinggo" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favico.png" />
       </Head>
 
       <Wrapper>
@@ -57,23 +57,19 @@ const GriyaMegaSakinah: NextPage = () => {
           />
         </div>
 
-        <div className="flex w-full my-10">
+        <div className="flex w-full my-10 bg-[#DDDDDD]">
           <Product
             pic='/images/mega-sakinah-1.jpg'
-            title='Griya Mega Sakinah'
+            title='OUR SPECIFICATIONS'
           />
+        </div>
+
+        <div className="flex w-full h-full mt-5 md:mt-10 brightness-50">
+          <SitePlan />
         </div>
 
         <div className="flex w-full my-10">
           <Facilities />
-        </div>
-
-        <div className="flex w-full bg-white">
-          <Testimonial />
-        </div>
-
-        <div className="flex w-full bg-[#E7AC29]">
-          <Customer />
         </div>
 
         <div className="flex w-full bg-white">

@@ -46,7 +46,7 @@ const Wrapper = (props: LayoutProps) => {
               </li>
             </ul>
           </div>
-          <a href='#testimonials' className="text-lg py-3 tracking-wider uppercase">About</a>
+          <a href='#about' className="text-lg py-3 tracking-wider uppercase">About</a>
           <a href='#contacts' className="text-lg py-3 tracking-wider uppercase">Contact</a>
         </div>
       </div>

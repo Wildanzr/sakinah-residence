@@ -35,7 +35,8 @@ const Home: NextPage = () => {
           <SwiperHero
             Hero1={<Hero1 />}
             Hero2={<Hero2 />}
-            bg="bg-[url('/images/banner1.jpg')] bg-cover bg-center bg-no-repeat"
+            bg1=''
+            bg2="bg-[url('/images/banner1.jpg')] bg-cover bg-center bg-no-repeat"
           />
         </div>
 

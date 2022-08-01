@@ -1,6 +1,6 @@
 const Facilities = () => {
   return (
-    <div className="container flex flex-col w-full h-full items-center justify-center py-5">
+    <div className="container flex flex-col w-full h-full items-center justify-center py-5" id='about'>
         <h3 className='text-4xl font-lexend font-bold tracking-widest text-center mb-10'>OUR FACILITIES</h3>
         <div className="w-full grid auto-rows-auto md:grid-cols-4 gap-4 h-full">
             <div className="flex flex-col  items-center justify-center w-full h-full">

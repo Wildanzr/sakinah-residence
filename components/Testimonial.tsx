@@ -2,7 +2,7 @@ const Testimonial = () => {
   return (
     <div
       className="flex flex-col container items-center justify-center text-center my-10"
-      id="testimonials"
+      id="about"
     >
       <span className="font-poppins text-[#6B6B6B] text-2xl tracking-wider pt-5 pb-2">
         What People Says
