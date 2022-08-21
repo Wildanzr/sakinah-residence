@@ -6,7 +6,7 @@ import { SwiperHero, Map, Contact, Footer, Wrapper, SitePlan, Detail, Facilities
 const SakinahResidence: NextPage = () => {
   const whatsAppChat = () => {
     window.open(
-      'https://wa.me/6282331424705?text=Hallo%0ASaya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20Sakinah%20Residence',
+      'https://wa.me/6281231994893?text=Hallo%0ASaya%20ingin%20tahu%20informasi%20lebih%20lanjut%20tentang%20Sakinah%20Residence',
       '_blank'
     )
   }
@@ -78,11 +78,11 @@ const SakinahResidence: NextPage = () => {
         </div>
 
         <div className="flex w-full h-full mt-5 md:mt-10 brightness-50">
-          <SitePlan />
+          <SitePlan image='/images/siteplan-sakinah.jpg' />
         </div>
 
         <div className="flex w-full bg-white">
-          <Map />
+          <Map map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61456.99462588896!2d113.51135091594406!3d-7.724513339248215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7038484881b23%3A0x481b10811d2e42c7!2sSakinah%20Residence!5e0!3m2!1sid!2sid!4v1658275532142!5m2!1sid!2sid' />
         </div>
 
         <div className="flex w-full bg-black">

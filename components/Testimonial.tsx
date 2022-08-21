@@ -14,7 +14,7 @@ const Testimonial = () => {
           <div className="flex relative w-9/12 h-2/6 bg-[#FBFDFF] shadow-2xl items-center justify-center rounded-lg px-3">
             <div className="flex absolute border-solid border-t-[#FBFDFF] shadow-2xl border-t-[30px] border-x-transparent border-x-[30px] border-b-0 -bottom-[15%]" />
             <p className="leading-5 tracking-wide text-center font-poppins text-base font-extralight text-black">
-              Suasana dan pemandangan di Sakinah Residence sangat sejuk, dan tata letaknya sangat bagus.
+              Perumahan Sakinah Residence menawarkan harga yang hemat dengan spesifikasi yang hebat.
             </p>
           </div>
 

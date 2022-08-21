@@ -22,7 +22,7 @@ const Hero3 = (props: Hero3Props) => {
       </div>
 
       <div className="flex flex-col w-full h-1/2 md:h-full md:w-1/2 items-center justify-center px-5 py-5 md:px-10">
-        <img src={img} alt={`${t1} ${t2}`} className="w-full h-full md:h-4/6 object-cover" />
+        <img src={img} alt={`${t1} ${t2}`} className="w-full h-full md:h-4/6 object-contain" />
       </div>
     </div>
   )

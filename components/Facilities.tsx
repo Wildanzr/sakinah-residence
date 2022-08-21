@@ -19,14 +19,14 @@ const Facilities = () => {
 
             <div className="flex flex-col  items-center justify-center w-full h-full">
                 <div className="flex h-40 w-40 bg-slate-300 rounded-full items-center justify-center hover:brightness-75 duration-300">
-                    <img src='/images/pagar.png' className='flex object-contain object-'/>
+                    <img src='/images/warna.png' className='flex object-contain object-'/>
                 </div>
                 <p className="font-poppins font-medium text-xl text-center pt-5">Free Warna Cat</p>
             </div>
 
             <div className="flex flex-col  items-center justify-center w-full h-full">
                 <div className="flex h-40 w-40 bg-slate-300 rounded-full items-center justify-center hover:brightness-75 duration-300">
-                    <img src='/images/warna.png' className='flex object-contain object-'/>
+                    <img src='/images/pagar.png' className='flex object-contain object-'/>
                 </div>
                 <p className="font-poppins font-medium text-xl text-center pt-5">Free Pagar Samping</p>
             </div>

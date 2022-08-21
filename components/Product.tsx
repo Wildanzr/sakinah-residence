@@ -136,8 +136,11 @@ const Product = (props: ProductProps) => {
                 <p className="font-poppins text-lg font-semibold pb-5">
                   Pilihan Angsuran:
                 </p>
-                <div className="flex flex-col md:flex-row w-full items-center justify-start py-2">
-                  <p className='flex w-full md:w-1/3 font-poppins font-medium text-base px-5'>Kredit Maksimum</p>
+                <div className="flex flex-col md:flex-row w-full items-start justify-start py-2">
+                  <div className="flex flex-col w-full md:w-1/3">
+                    <p className='flex font-poppins font-medium text-base px-5'>Kredit Maksimum</p>
+                    <p className='flex font-poppins font-light text-xs px-5'>*Bunga KPR 5% untuk rumah bersubsidi</p>
+                  </div>
                   <div className="form-control w-full max-w-xs">
                     <select defaultValue={0} onChange={handleChangeCredit} className="select select-bordered select-sm bg-white font-poppins text-sm font-light">
                       <option disabled >
